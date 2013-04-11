@@ -1,0 +1,79 @@
+[
+	{
+		"application": "Archive",
+		"shortDescription": "archive complete (AD) (ADN) (10/04/13) (224/224) (COMPLETED) (dppuwredi04)",
+		"longDescription": "checks if all planned pages are found in the archive (AD) (ADN) (10/04/13) (224/224) (COMPLETED) (dppuwredi04)",
+		"errorMessage": "",
+		"status": "OK",
+		"done": true,
+		"image":"http://archief.persgroep.be/archive-web/assets/preview/30129817/show/001_GPV2QU_20130410_DMO01_00.pdf/100"
+	},
+	{
+		"application": "Archive",
+		"shortDescription": "archive complete (AD Specials) (ADS) (10/04/13) (0/0) (?)",
+		"longDescription": "checks if all planned pages are found in the archive (AD Specials) (ADS) (10/04/13) (0/0) (?)",
+		"errorMessage": "",
+		"status": "OK",
+		"done": false,
+		"image":"http://archief.persgroep.be/archive-web/assets/preview/30129817/show/001_GPV2QU_20130410_DMO01_00.pdf/100"
+	},
+	{
+		"application": "Archive",
+		"shortDescription": "archive complete (Blik) (BLK) (10/04/13) (4/4) (COMPLETED) (dppuwredi01)",
+		"longDescription": "checks if all planned pages are found in the archive (Blik) (BLK) (10/04/13) (4/4) (COMPLETED) (dppuwredi01)",
+		"errorMessage": "",
+		"status": "OK",
+		"done": true,
+		"image":"http://archief.persgroep.be/archive-web/assets/preview/30129817/show/001_GPV2QU_20130410_DMO01_00.pdf/100"
+	},
+	{
+		"application": "Archive",
+		"shortDescription": "archive complete (DM Magazine) (DMA) (10/04/13) (0/0) (?)",
+		"longDescription": "checks if all planned pages are found in the archive (DM Magazine) (DMA) (10/04/13) (0/0) (?)",
+		"errorMessage": "",
+		"status": "OK",
+		"done": false
+	},
+	{
+		"application": "BackOrder",
+		"shortDescription": "webservice online (archive-viewer)",
+		"longDescription": "checks if the webservice can be contacted (archive-viewer): http://dpparchief.persgroep.be/archive-web/alive",
+		"errorMessage": "",
+		"status": "OK",
+		"done": true,
+		"image":"http://archief.persgroep.be/archive-web/assets/preview/30129817/show/001_GPV2QU_20130410_DMO01_00.pdf/100"
+	},
+	{
+		"application": "BackOrder",
+		"shortDescription": "directory size (/appl/shared/redpostdel/backorder/ftp/hln-belga/.processing/.error)",
+		"longDescription": "checks the number of files in a directory (/appl/shared/redpostdel/backorder/ftp/hln-belga/.processing/.error)",
+		"errorMessage": "directory size 1 exceeds max size 0",
+		"status": "WARN",
+		"done": true
+	},
+	{
+		"application": "iPaper Editor",
+		"shortDescription": "Export (10/04/2013) (Blik)",
+		"longDescription": "Checks if the Export was executed today. (10/04/2013) (Blik)",
+		"errorMessage": "Paper not yet published.",
+		"status": "WARN",
+		"done": true,
+		"image":"http://archief.persgroep.be/archive-web/assets/preview/30129817/show/001_GPV2QU_20130410_DMO01_00.pdf/100"
+	},
+	{
+		"application": "iPaper Editor",
+		"shortDescription": "Export (13/04/2013) (Nina)",
+		"longDescription": "Checks if the Export was executed today. (13/04/2013) (Nina)",
+		"errorMessage": "",
+		"status": "NONE",
+		"done": true
+	},
+	{
+		"application": "iPaper DMZ",
+		"shortDescription": "(20130410) Paper 28887 AD (AD)",
+		"longDescription": "Export finished",
+		"errorMessage": "",
+		"status": "OK",
+		"done": false
+	}
+]

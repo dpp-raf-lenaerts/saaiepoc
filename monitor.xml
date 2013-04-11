@@ -1,0 +1,8 @@
+<responses>
+	<response>
+		<shortDescription>webservice online (archive-viewer)</shortDescription>
+		<longDescription>checks if the webservice can be contacted (archive-viewer): http://dpparchief.persgroep.be/archive-web/alive</longDescription>
+		<errorMessage/>
+		<status>OK</status>
+	</response>
+</responses>

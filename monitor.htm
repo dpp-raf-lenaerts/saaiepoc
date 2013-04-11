@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+	<script src="monitor.js"></script>
+	<link rel="stylesheet" href="monitor.css">
+</head>
+
+<body>
+	<h2>Monitor</h2>
+	<div ng-controller="MonitorCtrl">
+		<span>{{remaining()}} of {{items.length}} remaining</span>
+		[ <a href="" ng-click="archive()">archive</a> ]
+		
+		<ul class="unstyled">
+			<li ng-repeat="item in items">
+			<input type="checkbox" ng-model="item.done">
+			<span class="done-{{item.done}}">{{item.application}}</span>
+			<span class="done-{{item.done}}">{{item.shortDescription}}</span>
+			<span class="done-{{item.done}}">{{item.status}}</span>
+			<span><img class="detailimage" src="{{item.image}}"></span>
+			</li>
+		</ul>
+		
+		<form ng-submit="addItem()">
+		<input type="shortDescription" ng-model="itemText" size="30"
+		placeholder="add new monitor item here">
+		<input class="btn-primary" type="submit" value="add">
+		</form>
+
+	</div>
+</body>
+
+</html>
