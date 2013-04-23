@@ -2,3 +2,25 @@
 	text-decoration: line-through;
 	color: grey;
 }
+
+.overview {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.overview th, .overview td {
+	border: 1px solid black;
+	padding: 3px;
+}
+
+div.float {
+	float: left;
+}
+
+.search-query {
+	width: 180px;
+}
+
+select {
+	margin-top: 6px;
+}

@@ -3,13 +3,35 @@
 
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.css"></script>
+	<script src="assets/js/bootstrap-dropdown.js"></script>
 	<script src="monitor.js"></script>
+	<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="monitor.css">
 </head>
 
 <body>
-	<h2>Monitor</h2>
 	<div ng-controller="MonitorCtrl">
+	    <div class="navbar">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="brand" href="#">Monitor</a>
+					Sort by:
+					<select ng-model="sortExpression">
+						<option value="application">Application</option>
+						<option value="shortDescription">Short Description</option>
+						<option value="status">Status</option>
+					</select>
+					Search by:
+					<input type="text" class="search-query" placeholder="Search for any word" ng-model="search.$">
+					<input type="text" class="search-query" placeholder="Search for application" ng-model="search.application"/>
+					<input type="text" class="search-query" placeholder="Search for short description" ng-model="search.shortDescription"/>
+					<input type="text" class="search-query" placeholder="Search for status" ng-model="search.status"/>
+				</div>
+			</div>
+		</div>		
+		
+		<!--
 		<span>{{remaining()}} of {{items.length}} remaining</span>
 		[ <a href="" ng-click="archive()">archive</a> ]
 		
@@ -22,13 +44,32 @@
 			<span><img class="detailimage" src="{{item.image}}"></span>
 			</li>
 		</ul>
+		-->
 		
+		<table class="overview">
+			<thead>
+				<tr>
+					<th>Application</th>
+					<th>Short description</th>
+					<th>Status</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="item in items | orderBy:mySortFunction | filter:search">
+					<td>{{item.application}}</td>
+					<td>{{item.shortDescription}}</td>
+					<td>{{item.status}}</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<!--
 		<form ng-submit="addItem()">
 		<input type="shortDescription" ng-model="itemText" size="30"
 		placeholder="add new monitor item here">
 		<input class="btn-primary" type="submit" value="add">
 		</form>
-
+		-->
 	</div>
 </body>
 

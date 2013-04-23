@@ -1,0 +1,41 @@
+{
+  "responses": {
+    "response": [
+      {
+        "shortDescription": "(20130422) Paper 29708 Het Parool (Het Parool)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      },
+      {
+        "shortDescription": "(20130422) Paper 29727 de Volkskrant (de Volkskrant)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      },
+      {
+        "shortDescription": "(20130422) Paper 29707 Het Laatste Nieuws (Het Laatste Nieuws)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      },
+      {
+        "shortDescription": "(20130422) Paper 29687 AD (AD)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      },
+      {
+        "shortDescription": "(20130419) Paper 29667 de Volkskrant (de Volkskrant)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      },
+      {
+        "shortDescription": "(20130422) Paper 29650 Trouw (Trouw)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      },
+      {
+        "shortDescription": "(20130422) Paper 29628 De Morgen (De Morgen)",
+        "longDescription": "Export finished",
+        "status": "OK"
+      }
+    ]
+  }
+}

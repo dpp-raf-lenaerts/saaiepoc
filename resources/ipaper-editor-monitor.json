@@ -1,0 +1,177 @@
+{
+  "responses": {
+    "response": [
+      {
+        "shortDescription": "Export (23/04/2013) (De Morgen)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (De Morgen)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (AD)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (AD)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (Het Laatste Nieuws)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (Het Laatste Nieuws)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (Dag Allemaal)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (Dag Allemaal)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (Joepie)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (Joepie)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (L'Investisseur)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (L'Investisseur)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (De Belegger)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (De Belegger)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (L'Echo)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (L'Echo)",
+        "errorMessage": "DMZ: Export busy (Zip made at 22:50:22.069) / ARCHIVE: Export busy (Zip made at 22:50:50.026)",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (De Tijd)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (De Tijd)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (Trouw)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (Trouw)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (23/04/2013) (de Volkskrant)",
+        "longDescription": "Checks if the Export was executed today. (23/04/2013) (de Volkskrant)",
+        "errorMessage": "Paper not yet published.",
+        "status": "WARN"
+      },
+      {
+        "shortDescription": "Export (24/04/2013) (Blik)",
+        "longDescription": "Checks if the Export was executed today. (24/04/2013) (Blik)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (24/04/2013) (TV Familie)",
+        "longDescription": "Checks if the Export was executed today. (24/04/2013) (TV Familie)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (25/04/2013) (Mon Argent)",
+        "longDescription": "Checks if the Export was executed today. (25/04/2013) (Mon Argent)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (25/04/2013) (Netto)",
+        "longDescription": "Checks if the Export was executed today. (25/04/2013) (Netto)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (26/04/2013) (Goed Gevoel Specials)",
+        "longDescription": "Checks if the Export was executed today. (26/04/2013) (Goed Gevoel Specials)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (26/04/2013) (Xtra Magazine)",
+        "longDescription": "Checks if the Export was executed today. (26/04/2013) (Xtra Magazine)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (26/04/2013) (Het Laatste Nieuws Specials)",
+        "longDescription": "Checks if the Export was executed today. (26/04/2013) (Het Laatste Nieuws Specials)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/04/2013) (Sabato FR)",
+        "longDescription": "Checks if the Export was executed today. (27/04/2013) (Sabato FR)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/04/2013) (de Volkskrant Magazine)",
+        "longDescription": "Checks if the Export was executed today. (27/04/2013) (de Volkskrant Magazine)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/04/2013) (Sabato NL)",
+        "longDescription": "Checks if the Export was executed today. (27/04/2013) (Sabato NL)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/04/2013) (Nina)",
+        "longDescription": "Checks if the Export was executed today. (27/04/2013) (Nina)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (02/05/2013) (ZONE09 Pocket)",
+        "longDescription": "Checks if the Export was executed today. (02/05/2013) (ZONE09 Pocket)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (05/05/2013) (AD)",
+        "longDescription": "Checks if the Export was executed today. (05/05/2013) (AD)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/02/2014) (Student Brussel)",
+        "longDescription": "Checks if the Export was executed today. (27/02/2014) (Student Brussel)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/02/2014) (AD Specials)",
+        "longDescription": "Checks if the Export was executed today. (27/02/2014) (AD Specials)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (27/02/2014) (Student Oost- en West-Vlaanderen)",
+        "longDescription": "Checks if the Export was executed today. (27/02/2014) (Student Oost- en West-Vlaanderen)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (16/04/2014) (Joepie)",
+        "longDescription": "Checks if the Export was executed today. (16/04/2014) (Joepie)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (20/03/2031) (Goed Gevoel)",
+        "longDescription": "Checks if the Export was executed today. (20/03/2031) (Goed Gevoel)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (20/03/2031) (Goed Gevoel Mini)",
+        "longDescription": "Checks if the Export was executed today. (20/03/2031) (Goed Gevoel Mini)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (12/02/3013) (Joepie)",
+        "longDescription": "Checks if the Export was executed today. (12/02/3013) (Joepie)",
+        "status": "NONE"
+      },
+      {
+        "shortDescription": "Export (02/04/3013) (Joepie)",
+        "longDescription": "Checks if the Export was executed today. (02/04/3013) (Joepie)",
+        "status": "NONE"
+      }
+    ]
+  }
+}
